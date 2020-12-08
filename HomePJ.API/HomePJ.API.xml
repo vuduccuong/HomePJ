@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HomePJ.API</name>
+    </assembly>
+    <members>
+        <member name="T:HomePJ.API.Controllers.NationalParkController">
+            <summary>
+            National Park Controller
+            </summary>
+        </member>
+        <member name="M:HomePJ.API.Controllers.NationalParkController.#ctor(AutoMapper.IMapper,HomePJ.API.Repository.IRepository.INationalParkRepository)">
+             <summary>
+            Contructor
+             </summary>
+             <param name="mapper">maping data entities vs dtos</param>
+             <param name="nationalParkRepo">national park repository</param>
+        </member>
+        <member name="M:HomePJ.API.Controllers.NationalParkController.GetNationalParks">
+            <summary>
+            Get list national park
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HomePJ.API.Controllers.NationalParkController.GetNationalPark(System.Int32)">
+            <summary>
+            Get national park
+            </summary>
+            <param name="nationalParkId">national park id</param>
+            <returns></returns>
+        </member>
+        <member name="M:HomePJ.API.Controllers.NationalParkController.CreateNationalPark(HomePJ.API.Models.DTOs.NationalParkDTO)">
+            <summary>
+            Create national park
+            </summary>
+            <param name="nationalParkDto">national park info</param>
+            <returns></returns>
+        </member>
+        <member name="M:HomePJ.API.Controllers.NationalParkController.UpdateNationalPark(System.Int32,HomePJ.API.Models.DTOs.NationalParkDTO)">
+            <summary>
+            Update national park
+            </summary>
+            <param name="nationalParkId">national park id</param>
+            <param name="nationalParkDTO">national park updated</param>
+            <returns></returns>
+        </member>
+        <member name="M:HomePJ.API.Controllers.NationalParkController.DeleteNationalPark(System.Int32)">
+            <summary>
+            Delete national park
+            </summary>
+            <param name="nationalParkId">national park id</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
